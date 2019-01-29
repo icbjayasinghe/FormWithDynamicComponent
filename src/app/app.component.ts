@@ -18,7 +18,8 @@ export class AppComponent implements OnInit {
       fullName: [''],
       age: [],
       countries: [[]],
-      genders: [{}]
+      genders: [{}],
+      accept: []
     });
   }
 }

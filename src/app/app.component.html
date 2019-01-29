@@ -2,7 +2,16 @@
     <app-input formControlName="fullName"></app-input>
     <app-age-input formControlName="age"></app-age-input>
     <app-checkbox formControlName="countries"></app-checkbox>
-    <app-gender-selector formControlName="genders"></app-gender-selector>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-6">
+                <app-gender-selector formControlName="genders"></app-gender-selector>
+            </div>
+            <div class="col-md-6">
+                <app-accept-switch formControlName="accept"></app-accept-switch>
+            </div>
+        </div>
+    </div>
 </form>
 
 <div>
