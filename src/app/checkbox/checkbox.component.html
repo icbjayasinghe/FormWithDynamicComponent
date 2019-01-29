@@ -1,0 +1,6 @@
+<div class="ui-g" style="width:300px;margin-bottom:10px">
+    Select your favourite countries : 
+    <div class="ui-g-4"><p-checkbox name="group1" value="New York" label="New York" [(ngModel)]="selectedValues" inputId="ny" (onChange)="change( $event,cb1,true )" #cb1></p-checkbox></div>
+    <div class="ui-g-4"><p-checkbox name="group1" value="San Francisco" label="San Francisco" [(ngModel)]="selectedValues" inputId="sf" (onChange)="change( $event,cb1,true )" #cb2></p-checkbox></div>
+    <div class="ui-g-4"><p-checkbox name="group1" value="Los Angeles" label="Los Angeles" [(ngModel)]="selectedValues" inputId="la" (onChange)="change( $event,cb1,true )" #cb3></p-checkbox></div>
+</div>
