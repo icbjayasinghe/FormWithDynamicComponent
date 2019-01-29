@@ -3,7 +3,7 @@ import { NG_VALUE_ACCESSOR, ControlValueAccessor } from '@angular/forms';
 
 export const EPANDED_TEXTAREA_VALUE_ACCESSOR: any = {
   provide : NG_VALUE_ACCESSOR,
-  useExisting: forwardRef(()=> InputComponent),
+  useExisting: forwardRef(() => InputComponent),
   multi: true
 };
 
