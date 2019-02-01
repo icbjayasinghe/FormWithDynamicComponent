@@ -7,6 +7,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { CheckboxModule } from 'primeng/checkbox';
 import { DropdownModule } from 'primeng/dropdown';
 import { InputSwitchModule } from 'primeng/inputswitch';
+import { ButtonModule } from 'primeng/button';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
@@ -34,7 +35,8 @@ import { AcceptSwitchComponent } from './accept-switch/accept-switch.component'
     FormsModule,
     DropdownModule,
     ReactiveFormsModule,
-    InputSwitchModule
+    InputSwitchModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
