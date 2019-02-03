@@ -8,6 +8,7 @@ import { CheckboxModule } from 'primeng/checkbox';
 import { DropdownModule } from 'primeng/dropdown';
 import { InputSwitchModule } from 'primeng/inputswitch';
 import { ButtonModule } from 'primeng/button';
+import { CalendarModule } from 'primeng/calendar';
 
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
@@ -15,7 +16,8 @@ import { InputComponent } from './input/input.component';
 import { CheckboxComponent } from './checkbox/checkbox.component';
 import { AgeInputComponent } from './age-input/age-input.component';
 import { GenderSelectorComponent } from './gender-selector/gender-selector.component';
-import { AcceptSwitchComponent } from './accept-switch/accept-switch.component'
+import { AcceptSwitchComponent } from './accept-switch/accept-switch.component';
+import { DateInputComponent } from './date-input/date-input.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { AcceptSwitchComponent } from './accept-switch/accept-switch.component'
     CheckboxComponent,
     AgeInputComponent,
     GenderSelectorComponent,
-    AcceptSwitchComponent
+    AcceptSwitchComponent,
+    DateInputComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { AcceptSwitchComponent } from './accept-switch/accept-switch.component'
     DropdownModule,
     ReactiveFormsModule,
     InputSwitchModule,
-    ButtonModule
+    ButtonModule,
+    CalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

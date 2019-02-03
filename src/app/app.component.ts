@@ -14,13 +14,15 @@ export class AppComponent implements OnInit {
   constructor(private fb: FormBuilder) {
   }
   ngOnInit(): void {
+    const d = new Date();
     this.value = '';
     this.formGrp = this.fb.group({
       fullName: [''],
       age: [],
       countries: [[]],
       genders: [{}],
-      accept: []
+      accept: [],
+      date:[d]
     });
   }
 

@@ -15,7 +15,7 @@ export const EPANDED_DROPDOWN_VALUE_ACCESSOR: any = {
   providers: [EPANDED_DROPDOWN_VALUE_ACCESSOR],
   styleUrls: ['./gender-selector.component.css']
 })
-export class GenderSelectorComponent implements OnInit,ControlValueAccessor {
+export class GenderSelectorComponent implements OnInit, ControlValueAccessor {
   selectedCity1: any;
   @Input('filter') filter: boolean;
 
